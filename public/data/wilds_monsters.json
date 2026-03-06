@@ -4,15 +4,15 @@
       "name": "Chatacabra",
       "image": "images/wilds/chatacabra.webp",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 12
+         "server": 62,
+         "blunt": 66,
+         "shot": 63
       },
       "elements": {
-         "fire": 1,
-         "water": 1,
-         "thunder": 4,
-         "ice": 3,
+         "fire": 5,
+         "water": 3,
+         "thunder": 21,
+         "ice": 13,
          "dragon": 0
       },
       "status": {
@@ -24,13 +24,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 0,
-         "flash": 1,
-         "sonic": 0,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 0
+         "severable": false,
+         "flash": true,
+         "sonic": false,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": false
       }
    },
    {
@@ -58,13 +58,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 0,
-         "flash": 1,
-         "sonic": 0,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 1
+         "severable": false,
+         "flash": true,
+         "sonic": false,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": true
       }
    },
    {
@@ -92,13 +92,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 0,
-         "flash": 1,
-         "sonic": 0,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 1
+         "severable": false,
+         "flash": true,
+         "sonic": false,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": true
       }
    },
    {
@@ -126,13 +126,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 0,
-         "flash": 1,
-         "sonic": 0,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 0
+         "severable": false,
+         "flash": true,
+         "sonic": false,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": false
       }
    },
    {
@@ -160,13 +160,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 1,
-         "flash": 1,
-         "sonic": 1,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 1
+         "severable": true,
+         "flash": true,
+         "sonic": true,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": true
       }
    },
    {
@@ -194,13 +194,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 0,
-         "flash": 1,
-         "sonic": 0,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 1
+         "severable": false,
+         "flash": true,
+         "sonic": false,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": true
       }
    },
    {
@@ -228,13 +228,13 @@
          "exhaust": 2
       },
       "misc": {
-         "severable": 0,
-         "flash": 1,
-         "sonic": 0,
-         "shock": 1,
-         "pitfall": 1,
-         "dung": 1,
-         "meat": 0
+         "severable": false,
+         "flash": true,
+         "sonic": false,
+         "shock": true,
+         "pitfall": true,
+         "dung": true,
+         "meat": false
       }
    }
 ]
