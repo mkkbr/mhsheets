@@ -3,12 +3,10 @@
     <!-- Header -->
     <header class="mb-8 text-center">
       <h1 class="text-4xl font-bold text-yellow-400 mb-2">Cheatsheet</h1>
-      <h2 class="text-4xl font-bold text-yellow-400 mb-2">MONSTER HUNTER WILDS</h2>
     </header>
 
     <!-- Monster Selection Dropdown -->
     <div class="max-w-md mx-auto mb-8">
-      <label for="monster-select" class="block text-gray-300 mb-2">Select Monster:</label>
       <select
         id="monster-select"
         v-model="selectedMonsterId"
