@@ -1,0 +1,240 @@
+[
+   {
+      "id": 1,
+      "name": "Chatacabra",
+      "image": "images/wilds/chatacabra.webp",
+      "weapon": {
+         "server": 11,
+         "blunt": 11,
+         "shot": 12
+      },
+      "elements": {
+         "fire": 1,
+         "water": 1,
+         "thunder": 4,
+         "ice": 3,
+         "dragon": 0
+      },
+      "status": {
+         "poison": 3,
+         "sleep": 2,
+         "paralysis": 3,
+         "blast": 2,
+         "stun": 3,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 0,
+         "flash": 1,
+         "sonic": 0,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 0
+      }
+   },
+   {
+      "id": 2,
+      "name": "Quematrice",
+      "image": "images/wilds/quematrice.webp",
+      "weapon": {
+         "server": 9,
+         "blunt": 9,
+         "shot": 8
+      },
+      "elements": {
+         "fire": 0,
+         "water": 3,
+         "thunder": 1,
+         "ice": 1,
+         "dragon": 1
+      },
+      "status": {
+         "poison": 3,
+         "sleep": 2,
+         "paralysis": 3,
+         "blast": 2,
+         "stun": 2,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 0,
+         "flash": 1,
+         "sonic": 0,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 1
+      }
+   },
+   {
+      "id": 3,
+      "name": "Lala Barina",
+      "image": "images/wilds/lalabarina.webp",
+      "weapon": {
+         "server": 10,
+         "blunt": 10,
+         "shot": 8
+      },
+      "elements": {
+         "fire": 4,
+         "water": 0,
+         "thunder": 2,
+         "ice": 1,
+         "dragon": 0
+      },
+      "status": {
+         "poison": 2,
+         "sleep": 2,
+         "paralysis": 1,
+         "blast": 2,
+         "stun": 3,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 0,
+         "flash": 1,
+         "sonic": 0,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 1
+      }
+   },
+   {
+      "id": 4,
+      "name": "Congalala",
+      "image": "images/wilds/congalala.webp",
+      "weapon": {
+         "server": 9,
+         "blunt": 9,
+         "shot": 9
+      },
+      "elements": {
+         "fire": 3,
+         "water": 2,
+         "thunder": 2,
+         "ice": 3,
+         "dragon": 1
+      },
+      "status": {
+         "poison": 2,
+         "sleep": 2,
+         "paralysis": 2,
+         "blast": 2,
+         "stun": 2,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 0,
+         "flash": 1,
+         "sonic": 0,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 0
+      }
+   },
+   {
+      "id": 5,
+      "name": "Balahara",
+      "image": "images/wilds/balahara.webp",
+      "weapon": {
+         "server": 9,
+         "blunt": 9,
+         "shot": 7
+      },
+      "elements": {
+         "fire": 1,
+         "water": 0,
+         "thunder": 3,
+         "ice": 1,
+         "dragon": 1
+      },
+      "status": {
+         "poison": 2,
+         "sleep": 2,
+         "paralysis": 3,
+         "blast": 2,
+         "stun": 2,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 1,
+         "flash": 1,
+         "sonic": 1,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 1
+      }
+   },
+   {
+      "id": 6,
+      "name": "Doshaguma",
+      "image": "images/wilds/doshaguma.webp",
+      "weapon": {
+         "server": 9,
+         "blunt": 8,
+         "shot": 7
+      },
+      "elements": {
+         "fire": 3,
+         "water": 1,
+         "thunder": 2,
+         "ice": 1,
+         "dragon": 1
+      },
+      "status": {
+         "poison": 2,
+         "sleep": 2,
+         "paralysis": 2,
+         "blast": 2,
+         "stun": 2,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 0,
+         "flash": 1,
+         "sonic": 0,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 1
+      }
+   },
+   {
+      "id": 0,
+      "name": "Uth Duna",
+      "image": "images/wilds/uthduna.webp",
+      "weapon": {
+         "server": 11,
+         "blunt": 11,
+         "shot": 9
+      },
+      "elements": {
+         "fire": 1,
+         "water": 0,
+         "thunder": 4,
+         "ice": 1,
+         "dragon": 1
+      },
+      "status": {
+         "poison": 2,
+         "sleep": 2,
+         "paralysis": 2,
+         "blast": 2,
+         "stun": 1,
+         "exhaust": 2
+      },
+      "misc": {
+         "severable": 0,
+         "flash": 1,
+         "sonic": 0,
+         "shock": 1,
+         "pitfall": 1,
+         "dung": 1,
+         "meat": 0
+      }
+   }
+]
