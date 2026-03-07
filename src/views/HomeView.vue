@@ -1,19 +1,18 @@
 <template>
-  <div class="min-h-screen bg-gray-900 text-gray-100 p-4 md:p-8">
+  <div class="min-h-screen bg-gray-900 text-gray-100 p-4">
     <!-- Header -->
-    <header class="mb-8 text-center">
-      <h1 class="text-4xl font-bold text-yellow-400 mb-2">Cheatsheet</h1>
+    <header class="mb-1 text-center">
+      <h1 class="text font-bold text-white">MH:W</h1>
     </header>
 
     <!-- Monster Selection Dropdown -->
-    <div class="max-w-md mx-auto mb-8">
+    <div class="max-w-md mx-auto mb-4">
       <select
         id="monster-select"
         v-model="selectedMonsterId"
         @change="loadMonster"
-        class="w-full p-3 rounded-lg bg-gray-800 text-white border border-gray-700 focus:ring-yellow-400"
+        class="text-2xl w-full p-3 rounded-lg bg-gray-900 text-yellow-400 border border-gray-900 focus:ring-yellow-400"
       >
-        <option value="" disabled>Choose a monster</option>
         <option v-for="monster in monsters" :key="monster.id" :value="monster.id">
           {{ monster.name }}
         </option>
