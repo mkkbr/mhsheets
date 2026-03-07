@@ -38,15 +38,15 @@
       "name": "Quematrice",
       "image": "images/wilds/quematrice.webp",
       "weapon": {
-         "server": 9,
-         "blunt": 9,
-         "shot": 8
+         "server": 66,
+         "blunt": 66,
+         "shot": 66
       },
       "elements": {
          "fire": 0,
-         "water": 3,
-         "thunder": 1,
-         "ice": 1,
+         "water": 66,
+         "thunder": 33,
+         "ice": 11,
          "dragon": 1
       },
       "status": {
@@ -55,7 +55,7 @@
          "paralysis": 3,
          "blast": 2,
          "stun": 2,
-         "exhaust": 2
+         "exhaust": 4
       },
       "misc": {
          "severable": false,

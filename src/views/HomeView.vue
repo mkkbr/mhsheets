@@ -1,28 +1,30 @@
 <template>
   <div class="min-h-screen bg-gray-900 text-gray-100 p-4">
     <!-- Header -->
-    <header class="mb-1 text-center">
-      <h1 class="text font-bold text-white">MH:W</h1>
+    <header class="pb-4 flex items-center justify-center relative">
+      <button v-if="selectedMonster" @click="selectedMonster = null"
+        class="text-white hover:text-yellow-300 flex items-center gap-1 absolute left-0">
+        <i class="fa-solid fa-grip-vertical"></i>
+      </button>
+      <h1 class="text-2xl font-bold text-white">Monster Hunter Wilds</h1>
     </header>
 
-    <!-- Monster Selection Dropdown -->
-    <div class="max-w-md mx-auto mb-4">
-      <select
-        id="monster-select"
-        v-model="selectedMonsterId"
-        @change="loadMonster"
-        class="text-2xl w-full p-3 rounded-lg bg-gray-900 text-yellow-400 border border-gray-900 focus:ring-yellow-400"
-      >
-        <option v-for="monster in monsters" :key="monster.id" :value="monster.id">
-          {{ monster.name }}
-        </option>
-      </select>
+    <div v-if="!selectedMonster" class="max-w-md mx-auto mb-4">
+      <div class="grid grid-cols-2 gap-2">
+        <div v-for="monster in monsters" :key="monster.id" @click="selectMonster(monster.id)"
+          class="flex flex-col items-center gap-2 p-2 rounded-lg bg-gray-900 text-yellow-400 border border-gray-700 hover:bg-gray-800 cursor-pointer">
+          <span>{{ monster.name }}</span>
+          <img :src="monster.image" :alt="monster.name" class="object-contain object-center w-60"
+            @error="$event.target.src = '/images/icons/starx.png'" />
+        </div>
+      </div>
     </div>
 
     <!-- Selected Monster Display -->
     <div v-if="selectedMonster" class="max-w-2xl mx-auto">
       <MonsterCard :monster="selectedMonster" />
     </div>
+
   </div>
 </template>
 
@@ -44,6 +46,11 @@ onMounted(async () => {
   }
 });
 
+// Select a monster and load its details
+const selectMonster = (id) => {
+  selectedMonsterId.value = id;
+  loadMonster();
+};
 // Load selected monster
 const loadMonster = () => {
   selectedMonster.value = monsters.value.find(

@@ -1,44 +1,43 @@
 <template>
-  <div className="flex flex-col md:flex-row">
+  <h2 class="text-2xl text-center font-bold p-2 text-yellow-400">{{ monster.name }}</h2>
+  <div className="flex flex-col justify-evenly md:flex-row">
     <div className="flex justify-center">
-        <img :src="monster.image" :alt="monster.name" class="object-cover object-center w-60 rounded-lg"
-          @error="$event.target.src = '/images/icons/starx.png'" />
+      <img :src="monster.image" :alt="monster.name" class="object-contain object-center w-60 md:w-86"
+        @error="$event.target.src = '/images/icons/starx.png'" />
     </div>
-    <div className="flex flex-col">
+    <div className="flex flex-col p-2">
       <!-- Weapons -->
-        <div class="flex justify-center">
-          <div v-for="(value, weapon) in monster.weapon" :key="element" class="flex items-center mb-1">
-            <img :src="`/images/icons/${weapon}.png`" :alt="element" class="w-8 mr-2" />
+      <div class="flex justify-center">
+        <div v-for="(value, weapon) in monster.weapon" :key="element" class="flex justify-center items-center p-2">
+          <img :src="`/images/icons/${weapon}.png`" :alt="element" class="w-8" />
+          <div class="flex"><span v-for="star in stars(value, 'elements')" :key="star" class="text-yellow-400">★</span>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center pt-2">
+        <!-- Elemental Weaknesses -->
+        <div class="flex flex-col min-w-32">
+          <div v-for="(value, element) in monster.elements" :key="element" class="flex items-center">
+            <img :src="`/images/icons/${element}.png`" :alt="element" class="w-8 ml-2 mr-2 mb-1" />
             <div class="flex">
-              <span v-for="star in stars(value, 'elements')" :key="star"
-                :class="star <= stars(value, 'elements') ? 'text-yellow-400' : 'text-gray-600'">★</span>
+              <span v-if="stars(value, 'elements') == 0" class="text-red-400">✖</span>
+              <span v-for="star in stars(value, 'elements')" :key="star" class="text-yellow-400">★</span>
             </div>
           </div>
         </div>
-      <div className="flex justify-evenly">
-        <!-- Elemental Weaknesses -->
-          <div class="flex flex-col">
-            <div v-for="(value, element) in monster.elements" :key="element" class="flex items-center mb-1">
-              <img :src="`/images/icons/${element}.png`" :alt="element" class="w-8 mr-2" />
-              <div class="flex">
-                <span v-if="stars(value, 'elements') == 0" class="text-red-400">✖</span>
-                <span v-for="star in stars(value, 'elements')" :key="star" class="text-yellow-400">★</span>
-              </div>
+        <!-- Status Weaknesses -->
+        <div class="flex flex-col min-w-32">
+          <div v-for="(value, status) in monster.status" :key="status" class="flex items-center">
+            <img :src="`/images/icons/${status}.png`" :alt="status" class="w-8 ml-2  mr-2 mb-1" />
+            <div class="flex">
+              <span v-if="stars(value, 'status') == 0" class="text-red-400">✖</span>
+              <span v-for="star in stars(value, 'status')" :key="star" class="text-yellow-400">★</span>
             </div>
           </div>
-          <!-- Status Weaknesses -->
-          <div class="flex flex-col">
-            <div v-for="(value, status) in monster.status" :key="status" class="flex items-center mb-1">
-              <img :src="`/images/icons/${status}.png`" :alt="status" class="w-8 mr-2" />
-              <div class="flex">
-                <span v-if="stars(value, 'status') == 0" class="text-red-400">✖</span>
-                <span v-for="star in stars(value, 'status')" :key="star"  class="text-yellow-400">★</span>
-              </div>
-            </div>
-          </div>
+        </div>
       </div>
       <!-- Misc Items (Bottom Row) -->
-      <div class="flex  justify-center">
+      <div class="flex justify-center p-2">
         <img v-if="monster.misc.severable" src="/images/icons/sword.png" alt="Severable" title="Severable Parts"
           class="w-8 h-8" />
         <img v-if="monster.misc.flash" src="/images/icons/flash_pod.png" alt="Flash Pod" title="Flash Pod"
