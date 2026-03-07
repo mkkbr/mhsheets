@@ -9,7 +9,7 @@
       <!-- Weapons -->
       <div class="flex justify-center">
         <div v-for="(value, weapon) in monster.weapon" :key="element" class="flex justify-center items-center p-2">
-          <img :src="`/images/icons/${weapon}.png`" :alt="element" class="w-8" />
+          <img :src="`./images/icons/${weapon}.png`" :alt="element" class="w-8" />
           <div class="flex"><span v-for="star in stars(value, 'elements')" :key="star" class="text-yellow-400">★</span>
           </div>
         </div>
@@ -18,7 +18,7 @@
         <!-- Elemental Weaknesses -->
         <div class="flex flex-col min-w-32">
           <div v-for="(value, element) in monster.elements" :key="element" class="flex items-center">
-            <img :src="`/images/icons/${element}.png`" :alt="element" class="w-8 ml-2 mr-2 mb-1" />
+            <img :src="`./images/icons/${element}.png`" :alt="element" class="w-8 ml-2 mr-2 mb-1" />
             <div class="flex">
               <span v-if="stars(value, 'elements') == 0" class="text-red-400">✖</span>
               <span v-for="star in stars(value, 'elements')" :key="star" class="text-yellow-400">★</span>
@@ -28,7 +28,7 @@
         <!-- Status Weaknesses -->
         <div class="flex flex-col min-w-32">
           <div v-for="(value, status) in monster.status" :key="status" class="flex items-center">
-            <img :src="`/images/icons/${status}.png`" :alt="status" class="w-8 ml-2  mr-2 mb-1" />
+            <img :src="`./images/icons/${status}.png`" :alt="status" class="w-8 ml-2  mr-2 mb-1" />
             <div class="flex">
               <span v-if="stars(value, 'status') == 0" class="text-red-400">✖</span>
               <span v-for="star in stars(value, 'status')" :key="star" class="text-yellow-400">★</span>

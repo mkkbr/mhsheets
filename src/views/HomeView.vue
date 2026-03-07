@@ -39,7 +39,7 @@ const selectedMonster = ref(null);
 // Load all monsters (for dropdown)
 onMounted(async () => {
   try {
-    const response = await fetch('/data/wilds_monsters.json');
+    const response = await fetch('./data/wilds_monsters.json');
     monsters.value = await response.json();
   } catch (error) {
     console.error('Error loading monsters:', error);
