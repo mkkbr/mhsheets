@@ -111,11 +111,11 @@
          "shot": 9
       },
       "elements": {
-         "fire": 3,
-         "water": 2,
-         "thunder": 2,
+         "fire": 55,
+         "water": 66,
+         "thunder": 51,
          "ice": 3,
-         "dragon": 1
+         "dragon": 0
       },
       "status": {
          "poison": 2,
