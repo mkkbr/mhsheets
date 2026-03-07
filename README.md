@@ -1,3 +1,3 @@
 # Monster Hunter Cheatsheet
 
-work in progress now
+work in progress now v1
