@@ -14,7 +14,7 @@
       <div class="flex justify-center gap-2">
         <div v-for="(value, weapon) in monster.weapon" :key="weapon" class="flex justify-center items-center ">
           <img :src="`./images/icons/${weapon}.png`" :alt="weapon" class="w-10 p-1" />
-          <div class="flex"><span v-for="star in stars(value, 'elements')" :key="star" class="text-ctp-yellow"><i class="fa-solid fa-star"></i></span>
+          <div class="flex"><span v-for="star in stars(value, 'elements')" :key="star" class="text-xs text-ctp-yellow"><i class="fa-solid fa-star"></i></span>
           </div>
         </div>
       </div>
@@ -25,8 +25,8 @@
             <img v-if="best(value, monster.elements) != 0" :src="`./images/icons/${element}.png`" :alt="element" class="w-10 mr-2 p-1 drop-shadow-[0_0px_6px_rgba(249,226,175,1)]" />
             <img v-else :src="`./images/icons/${element}.png`" :alt="element" class="w-10 mr-2 p-1" />
             <div class="flex">
-              <span v-if="stars(value, 'elements') == 0" class="text-lg text-ctp-red"><i class="fa-solid fa-xmark"></i></span>
-              <span v-for="star in stars(value, 'elements')" :key="star" class="text-lg text-ctp-yellow"><i class="fa-solid fa-star"></i></span>
+              <span v-if="stars(value, 'elements') == 0" class="text-base text-ctp-red"><i class="fa-solid fa-xmark"></i></span>
+              <span v-for="star in stars(value, 'elements')" :key="star" class="text-base text-ctp-yellow"><i class="fa-solid fa-star"></i></span>
             </div>
           </div>
         </div>
@@ -35,8 +35,8 @@
           <div v-for="(value, status) in monster.status" :key="status" class="flex items-center">
             <img :src="`./images/icons/${status}.png`" :alt="status" class="w-10 mr-2 p-1" />
             <div class="flex">
-              <span v-if="stars(value, 'status') == 0" class="text-lg text-ctp-red"><i class="fa-solid fa-xmark"></i></span>
-              <span v-for="star in stars(value, 'status')" :key="star" class="text-lg text-ctp-yellow-700"><i class="fa-solid fa-star"></i></span>
+              <span v-if="stars(value, 'status') == 0" class="text-base text-ctp-red"><i class="fa-solid fa-xmark"></i></span>
+              <span v-for="star in stars(value, 'status')" :key="star" class="text-base text-ctp-yellow-700"><i class="fa-solid fa-star"></i></span>
             </div>
           </div>
         </div>

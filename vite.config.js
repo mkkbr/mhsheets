@@ -6,8 +6,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [vue(),tailwindcss()],
   base: '/mhsheets/',
-//  server: {
-//    host: '0.0.0.0', // This allows access from any IP on the local network
-//    port: 3022, // Change to your preferred port
-//  },
+  server: {
+    host: '0.0.0.0', // This allows access from any IP on the local network
+    port: 3022, // Change to your preferred port
+  },
 })
