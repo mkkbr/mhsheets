@@ -504,8 +504,8 @@
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
-      "exhaust": 2
+      "stun": 2,
+      "exhaust": 0
     },
     "misc": {
       "severable": false,
@@ -513,7 +513,7 @@
       "sonic": false,
       "shock": true,
       "pitfall": true,
-      "dung": true,
+      "dung": false,
       "meat": false
     }
   },
