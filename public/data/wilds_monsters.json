@@ -7,15 +7,15 @@
     "note": "",
     "weakpoints": "Tongue",
     "weapon": {
-      "server": 62,
-      "blunt": 66,
-      "shot": 63
+      "server": 3.5,
+      "blunt": 3.5,
+      "shot": 3.5
     },
     "elements": {
-      "fire": 5,
-      "water": 3,
-      "thunder": 21,
-      "ice": 13,
+      "fire": 0.75,
+      "water": 0.75,
+      "thunder": 2.75,
+      "ice": 1.63,
       "dragon": 0
     },
     "status": {
@@ -44,16 +44,16 @@
     "note": "",
     "weakpoints": "Neck",
     "weapon": {
-      "server": 58,
-      "blunt": 57,
-      "shot": 55
+      "server": 3.29,
+      "blunt": 2.71,
+      "shot": 2.57
     },
     "elements": {
       "fire": 0,
-      "water": 21,
-      "thunder": 10,
-      "ice": 11,
-      "dragon": 5
+      "water": 2.29,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 3,
@@ -81,15 +81,15 @@
     "note": "",
     "weakpoints": "Tail, Stinger",
     "weapon": {
-      "server": 59,
-      "blunt": 59,
-      "shot": 52
+      "server": 3.2,
+      "blunt": 3.3,
+      "shot": 2.5
     },
     "elements": {
-      "fire": 19,
+      "fire": 2.3,
       "water": 0,
-      "thunder": 10,
-      "ice": 5,
+      "thunder": 1,
+      "ice": 1,
       "dragon": 0
     },
     "status": {
@@ -118,16 +118,16 @@
     "note": "",
     "weakpoints": "Booty",
     "weapon": {
-      "server": 53,
-      "blunt": 53,
-      "shot": 53
+      "server": 2.71,
+      "blunt": 2.71,
+      "shot": 2.71
     },
     "elements": {
-      "fire": 21,
-      "water": 10,
-      "thunder": 10,
-      "ice": 15,
-      "dragon": 5
+      "fire": 2,
+      "water": 1,
+      "thunder": 1,
+      "ice": 1.86,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -155,16 +155,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 52,
-      "blunt": 53,
-      "shot": 45
+      "server": 2.63,
+      "blunt": 3,
+      "shot": 2.38
     },
     "elements": {
-      "fire": 8,
+      "fire": 1,
       "water": 0,
-      "thunder": 18,
-      "ice": 5,
-      "dragon": 5
+      "thunder": 2.25,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -192,16 +192,16 @@
     "note": "",
     "weakpoints": "Belly",
     "weapon": {
-      "server": 50,
-      "blunt": 49,
-      "shot": 45
+      "server": 2.71,
+      "blunt": 2.57,
+      "shot": 2.43
     },
     "elements": {
-      "fire": 18,
-      "water": 8,
-      "thunder": 13,
-      "ice": 10,
-      "dragon": 4
+      "fire": 2.14,
+      "water": 1,
+      "thunder": 1.43,
+      "ice": 1,
+      "dragon": 0.86
     },
     "status": {
       "poison": 2,
@@ -229,16 +229,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 78,
-      "blunt": 68,
-      "shot": 54
+      "server": 3.29,
+      "blunt": 3.43,
+      "shot": 2.86
     },
     "elements": {
-      "fire": 6,
+      "fire": 1,
       "water": 0,
-      "thunder": 21,
-      "ice": 3,
-      "dragon": 3
+      "thunder": 1.86,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -266,16 +266,17 @@
     "note": "",
     "weakpoints": "Tongue",
     "weapon": {
-      "server": 52,
-      "blunt": 52,
-      "shot": 52
+      "server": 2.9,
+      "blunt": 2.9,
+      "shot": 2.9
     },
     "elements": {
-      "fire": 9,
-      "water": 20,
-      "thunder": 9,
-      "ice": 9,
-      "dragon": 5
+      "fire": 1,
+      "water": 2.4
+      ,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 1,
@@ -303,16 +304,16 @@
     "note": "",
     "weakpoints": "Head",
     "weapon": {
-      "server": 56,
-      "blunt": 57,
-      "shot": 49
+      "server": 2.7,
+      "blunt": 2.7,
+      "shot": 2.6
     },
     "elements": {
-      "fire": 5,
-      "water": 10,
+      "fire": 1,
+      "water": 1.1,
       "thunder": 0,
-      "ice": 14,
-      "dragon": 5
+      "ice": 1.6,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -340,15 +341,15 @@
     "note": "Thunder: only when hide broken.",
     "weakpoints": "Pincers",
     "weapon": {
-      "server": 41,
-      "blunt": 43,
-      "shot": 46
+      "server": 2.4,
+      "blunt": 2.4,
+      "shot": 2.5
     },
     "elements": {
-      "fire": 14,
+      "fire": 2.1,
       "water": 0,
-      "thunder": 12,
-      "ice": 7,
+      "thunder": 0.5,
+      "ice": 1,
       "dragon": 0
     },
     "status": {
@@ -377,16 +378,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 57,
-      "blunt": 58,
-      "shot": 51
+      "server": 3,
+      "blunt": 3.1,
+      "shot": 2.9
     },
     "elements": {
-      "fire": 17,
-      "water": 6,
-      "thunder": 11,
+      "fire": 1.8,
+      "water": 1,
+      "thunder": 1.5,
       "ice": 0,
-      "dragon": 4
+      "dragon": 1
     },
     "status": {
       "poison": 3,
@@ -414,16 +415,16 @@
     "note": "",
     "weakpoints": "Arms",
     "weapon": {
-      "server": 58,
-      "blunt": 57,
-      "shot": 55
+      "server": 2.6,
+      "blunt": 2.6,
+      "shot": 2.4
     },
     "elements": {
       "fire": 0,
-      "water": 22,
-      "thunder": 7,
-      "ice": 16,
-      "dragon": 11
+      "water": 2.6,
+      "thunder": 1,
+      "ice": 1.6,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -451,16 +452,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 52,
-      "blunt": 55,
-      "shot": 46
+      "server": 3,
+      "blunt": 3.3,
+      "shot": 2.9
     },
     "elements": {
       "fire": 0,
-      "water": 19,
-      "thunder": 7,
-      "ice": 5,
-      "dragon": 9
+      "water": 2.1,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -488,16 +489,16 @@
     "note": "",
     "weakpoints": "Frontlegs",
     "weapon": {
-      "server": 62,
-      "blunt": 62,
-      "shot": 59
+      "server": 3,
+      "blunt": 2.86,
+      "shot": 2.71
     },
     "elements": {
-      "fire": 22,
-      "water": 5,
-      "thunder": 13,
-      "ice": 13,
-      "dragon": 22
+      "fire": 2.13,
+      "water": 1,
+      "thunder": 1.57,
+      "ice": 2.57,
+      "dragon": 1.86
     },
     "status": {
       "poison": 2,
@@ -525,16 +526,16 @@
     "note": "",
     "weakpoints": "Mouth, Legs",
     "weapon": {
-      "server": 55,
-      "blunt": 50,
-      "shot": 46
+      "server": 2.67,
+      "blunt": 2.56,
+      "shot": 2.11
     },
     "elements": {
       "fire": 0,
-      "water": 12,
-      "thunder": 17,
-      "ice": 12,
-      "dragon": 27
+      "water": 1,
+      "thunder": 1.67,
+      "ice": 1,
+      "dragon": 2.78
     },
     "status": {
       "poison": 1,
@@ -562,16 +563,16 @@
     "note": "",
     "weakpoints": "Mouth, Chest",
     "weapon": {
-      "server": 60,
-      "blunt": 60,
-      "shot": 40
+      "server": 3.09,
+      "blunt": 3.09,
+      "shot": 2.36
     },
     "elements": {
-      "fire": 13,
-      "water": 5,
-      "thunder": 5,
+      "fire": 1.09,
+      "water": 0.91,
+      "thunder": 0.91,
       "ice": 0,
-      "dragon": 5
+      "dragon": 0.91
     },
     "status": {
       "poison": 1,
@@ -599,16 +600,16 @@
     "note": "",
     "weakpoints": "Tail, Frontlegs",
     "weapon": {
-      "server": 53,
-      "blunt": 53,
-      "shot": 50
+      "server": 2.2,
+      "blunt": 2.3,
+      "shot": 2.2
     },
     "elements": {
-      "fire": 15,
-      "water": 27,
-      "thunder": 15,
-      "ice": 15,
-      "dragon": 23
+      "fire": 2.4,
+      "water": 3.6,
+      "thunder": 2.4,
+      "ice": 2.4,
+      "dragon": 2.2
     },
     "status": {
       "poison": 2,
@@ -636,15 +637,15 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 56,
-      "blunt": 57,
-      "shot": 44
+      "server": 2.91,
+      "blunt": 3.18,
+      "shot": 2.27
     },
     "elements": {
-      "fire": 6,
-      "water": 4,
-      "thunder": 6,
-      "ice": 29,
+      "fire": 1.09,
+      "water": 1,
+      "thunder": 1.09,
+      "ice": 3.36,
       "dragon": 0
     },
     "status": {
@@ -673,16 +674,16 @@
     "note": "",
     "weakpoints": "Chainblades",
     "weapon": {
-      "server": 50,
-      "blunt": 51,
-      "shot": 49
+      "server": 2.67,
+      "blunt": 2.67,
+      "shot": 2.44
     },
     "elements": {
-      "fire": 9,
-      "water": 9,
-      "thunder": 10,
-      "ice": 9,
-      "dragon": 14
+      "fire": 0.78,
+      "water": 0.78,
+      "thunder": 0.78,
+      "ice": 0.78,
+      "dragon": 0.78
     },
     "status": {
       "poison": 2,
@@ -710,16 +711,16 @@
     "note": "Dragon vs Black Parts",
     "weakpoints": "Head, Wingarms",
     "weapon": {
-      "server": 59,
-      "blunt": 60,
-      "shot": 52
+      "server": 2.85,
+      "blunt": 2.85,
+      "shot": 2.46
     },
     "elements": {
-      "fire": 11,
-      "water": 5,
-      "thunder": 5,
-      "ice": 7,
-      "dragon": 21
+      "fire": 1,
+      "water": 1,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 2.08
     },
     "status": {
       "poison": 2,
@@ -747,16 +748,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 53,
-      "blunt": 50,
-      "shot": 49
+      "server": 3.11,
+      "blunt": 2.89,
+      "shot": 2.44
     },
     "elements": {
-      "fire": 9,
-      "water": 22,
+      "fire": 1.33,
+      "water": 2.67,
       "thunder": 0,
-      "ice": 24,
-      "dragon": 13
+      "ice": 3.44,
+      "dragon": 1.33
     },
     "status": {
       "poison": 1,
@@ -784,16 +785,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 66,
-      "blunt": 59,
-      "shot": 66
+      "server": 1,
+      "blunt": 1,
+      "shot": 1
     },
     "elements": {
-      "fire": 6,
-      "water": 13,
-      "thunder": 18,
-      "ice": 20,
-      "dragon": 0
+      "fire": 1,
+      "water": 1,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -821,16 +822,16 @@
     "note": "",
     "weakpoints": "Head",
     "weapon": {
-      "server": 52,
-      "blunt": 46,
-      "shot": 47
+      "server": 1,
+      "blunt": 1,
+      "shot": 1
     },
     "elements": {
-      "fire": 18,
-      "water": 9,
+      "fire": 1,
+      "water": 1,
       "thunder": 0,
-      "ice": 14,
-      "dragon": 10
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 1,
@@ -858,16 +859,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 53,
-      "blunt": 53,
-      "shot": 47
+      "server": 3.14,
+      "blunt": 3,
+      "shot": 2.57
     },
     "elements": {
       "fire": 0,
-      "water": 9,
-      "thunder": 14,
-      "ice": 9,
-      "dragon": 22
+      "water": 0.86,
+      "thunder": 1.57,
+      "ice": 0.86,
+      "dragon": 2.86
     },
     "status": {
       "poison": 1,
@@ -895,16 +896,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 54,
-      "blunt": 52,
-      "shot": 4
+      "server": 2.88,
+      "blunt": 3,
+      "shot": 2.5
     },
     "elements": {
       "fire": 0,
-      "water": 11,
-      "thunder": 16,
-      "ice": 11,
-      "dragon": 26
+      "water": 0.88,
+      "thunder": 1.5,
+      "ice": 0.88,
+      "dragon": 2.88
     },
     "status": {
       "poison": 2,
@@ -932,16 +933,16 @@
     "note": "",
     "weakpoints": "Head, Belly, Back, Tail",
     "weapon": {
-      "server": 44,
-      "blunt": 46,
-      "shot": 42
+      "server": 1,
+      "blunt": 1,
+      "shot": 1
     },
     "elements": {
-      "fire": 0,
-      "water": 30,
-      "thunder": 9,
-      "ice": 10,
-      "dragon": 24
+      "fire": 1,
+      "water": 1,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -969,14 +970,14 @@
     "note": "",
     "weakpoints": "Booty",
     "weapon": {
-      "server": 57,
-      "blunt": 56,
-      "shot": 48
+      "server": 3.13,
+      "blunt": 3.13,
+      "shot": 2.38
     },
     "elements": {
-      "fire": 24,
-      "water": 5,
-      "thunder": 15,
+      "fire": 2.38,
+      "water": 1,
+      "thunder": 2,
       "ice": 0,
       "dragon": 0
     },
@@ -1006,16 +1007,16 @@
     "note": "",
     "weakpoints": "Head, Claws, Back",
     "weapon": {
-      "server": 44,
-      "blunt": 43,
-      "shot": 34
+      "server": 2.4,
+      "blunt": 2.3,
+      "shot": 1.9
     },
     "elements": {
-      "fire": 8,
+      "fire": 1,
       "water": 0,
-      "thunder": 21,
-      "ice": 12,
-      "dragon": 20
+      "thunder": 2.1,
+      "ice": 1.4,
+      "dragon": 2.20
     },
     "status": {
       "poison": 2,
@@ -1043,16 +1044,16 @@
     "note": "",
     "weakpoints": "Chainblades",
     "weapon": {
-      "server": 50,
-      "blunt": 51,
-      "shot": 49
+      "server": 2.67,
+      "blunt": 2.67,
+      "shot": 2.44
     },
     "elements": {
-      "fire": 9,
-      "water": 9,
-      "thunder": 10,
-      "ice": 9,
-      "dragon": 14
+      "fire": 0.78,
+      "water": 0.78,
+      "thunder": 0.78,
+      "ice": 0.78,
+      "dragon": 0.78
     },
     "status": {
       "poison": 2,
@@ -1080,16 +1081,16 @@
     "note": "",
     "weakpoints": "Legs",
     "weapon": {
-      "server": 51,
-      "blunt": 51,
-      "shot": 45
+      "server": 2.5,
+      "blunt": 2.5,
+      "shot": 2.13
     },
     "elements": {
       "fire": 0,
-      "water": 9,
-      "thunder": 22,
-      "ice": 14,
-      "dragon": 7
+      "water": 1,
+      "thunder": 1.75,
+      "ice": 1.25,
+      "dragon": 1
     },
     "status": {
       "poison": 2,
@@ -1117,16 +1118,16 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 54,
-      "blunt": 55,
-      "shot": 39
+      "server": 2.54,
+      "blunt": 2.46,
+      "shot": 2.15
     },
     "elements": {
-      "fire": 17,
+      "fire": 1.77,
       "water": 0,
-      "thunder": 12,
-      "ice": 5,
-      "dragon": 10
+      "thunder": 1.23,
+      "ice": 1,
+      "dragon": 1.23
     },
     "status": {
       "poison": 1,
@@ -1154,16 +1155,16 @@
     "note": "",
     "weakpoints": "Head, Back",
     "weapon": {
-      "server": 50,
-      "blunt": 50,
-      "shot": 44
+      "server": 2.4,
+      "blunt": 2.4,
+      "shot": 1.8
     },
     "elements": {
-      "fire": 19,
+      "fire": 1.6,
       "water": 0,
       "thunder": 0,
-      "ice": 12,
-      "dragon": 12
+      "ice": 1.1,
+      "dragon": 1.1
     },
     "status": {
       "poison": 2,
@@ -1191,16 +1192,16 @@
     "note": "Power Unit on Back",
     "weakpoints": "Head, Legs, Back",
     "weapon": {
-      "server": 49,
-      "blunt": 53,
-      "shot": 42
+      "server": 1,
+      "blunt": 1,
+      "shot": 1
     },
     "elements": {
-      "fire": 0,
-      "water": 6,
-      "thunder": 17,
-      "ice": 5,
-      "dragon": 14
+      "fire": 1,
+      "water": 1,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 0,
@@ -1228,16 +1229,16 @@
     "note": "Fire In Solid state. Dragon In Liquid or Gaseous states",
     "weakpoints": "Horn, Wing Claws, Chest, Tail",
     "weapon": {
-      "server": 49,
-      "blunt": 49,
-      "shot": 33
+      "server": 1,
+      "blunt": 1,
+      "shot": 1
     },
     "elements": {
-      "fire": 13,
-      "water": 0,
-      "thunder": 0,
-      "ice": 0,
-      "dragon": 2
+      "fire": 1,
+      "water": 1,
+      "thunder": 1,
+      "ice": 1,
+      "dragon": 1
     },
     "status": {
       "poison": 0,
