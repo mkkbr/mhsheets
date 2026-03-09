@@ -8,6 +8,6 @@ export default defineConfig({
   base: '/mhsheets/',
   server: {
     host: '0.0.0.0', // This allows access from any IP on the local network
-    port: 3000, // Change to your preferred port
+    port: 3022, // Change to your preferred port
   },
 })

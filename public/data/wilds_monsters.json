@@ -3,7 +3,8 @@
       "id": 0,
       "name": "Chatacabra",
       "image": "images/wilds/chatacabra.webp",
-      "weakpoints": ["Tongue"],
+      "note": "",
+      "weakpoints": "Tongue",
       "weapon": {
          "server": 62,
          "blunt": 66,
@@ -38,18 +39,19 @@
       "id": 1,
       "name": "Quematrice",
       "image": "images/wilds/quematrice.webp",
-      "weakpoints": ["Neck"],
+      "note": "",
+      "weakpoints": "Neck",
       "weapon": {
-         "server": 66,
-         "blunt": 66,
-         "shot": 66
+         "server": 58,
+         "blunt": 57,
+         "shot": 55
       },
       "elements": {
          "fire": 0,
-         "water": 66,
-         "thunder": 33,
+         "water": 21,
+         "thunder": 10,
          "ice": 11,
-         "dragon": 1
+         "dragon": 5
       },
       "status": {
          "poison": 3,
@@ -57,7 +59,7 @@
          "paralysis": 3,
          "blast": 2,
          "stun": 2,
-         "exhaust": 4
+         "exhaust": 2
       },
       "misc": {
          "severable": false,
@@ -73,17 +75,18 @@
       "id": 2,
       "name": "Lala Barina",
       "image": "images/wilds/lalabarina.webp",
-      "weakpoints": ["Tail","Stinger"],
+      "note": "",
+      "weakpoints": "Tail, Stinger",
       "weapon": {
-         "server": 10,
-         "blunt": 10,
-         "shot": 8
+         "server": 59,
+         "blunt": 59,
+         "shot": 52
       },
       "elements": {
-         "fire": 4,
+         "fire": 19,
          "water": 0,
-         "thunder": 2,
-         "ice": 1,
+         "thunder": 10,
+         "ice": 5,
          "dragon": 0
       },
       "status": {
@@ -108,18 +111,19 @@
       "id": 3,
       "name": "Congalala",
       "image": "images/wilds/congalala.webp",
-      "weakpoints": ["Booty"],
+      "note": "",
+      "weakpoints": "Booty",
       "weapon": {
-         "server": 9,
-         "blunt": 9,
-         "shot": 9
+         "server": 54,
+         "blunt": 55,
+         "shot": 52
       },
       "elements": {
-         "fire": 55,
-         "water": 66,
-         "thunder": 51,
-         "ice": 3,
-         "dragon": 0
+         "fire": 20,
+         "water": 7,
+         "thunder": 10,
+         "ice": 12,
+         "dragon": 4
       },
       "status": {
          "poison": 2,
@@ -143,18 +147,19 @@
       "id": 4,
       "name": "Balahara",
       "image": "images/wilds/balahara.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
-         "server": 9,
-         "blunt": 9,
-         "shot": 7
+         "server": 54,
+         "blunt": 55,
+         "shot": 47
       },
       "elements": {
-         "fire": 1,
+         "fire": 11,
          "water": 0,
-         "thunder": 3,
-         "ice": 1,
-         "dragon": 1
+         "thunder": 16,
+         "ice": 5,
+         "dragon": 4
       },
       "status": {
          "poison": 2,
@@ -178,18 +183,19 @@
       "id": 5,
       "name": "Doshaguma",
       "image": "images/wilds/doshaguma.webp",
-      "weakpoints": ["Belly"],
+      "note": "",
+      "weakpoints": "Belly",
       "weapon": {
-         "server": 9,
-         "blunt": 8,
-         "shot": 7
+         "server": 53,
+         "blunt": 52,
+         "shot": 47
       },
       "elements": {
-         "fire": 3,
-         "water": 1,
-         "thunder": 2,
-         "ice": 1,
-         "dragon": 1
+         "fire": 18,
+         "water": 5,
+         "thunder": 13,
+         "ice": 9,
+         "dragon": 3
       },
       "status": {
          "poison": 2,
@@ -213,18 +219,19 @@
       "id": 6,
       "name": "Uth Duna",
       "image": "images/wilds/uthduna.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 72,
+         "blunt": 68,
+         "shot": 57
       },
       "elements": {
-         "fire": 1,
+         "fire": 9,
          "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "thunder": 20,
+         "ice": 4,
+         "dragon": 4
       },
       "status": {
          "poison": 2,
@@ -248,25 +255,26 @@
       "id": 7,
       "name": "Rompopolo",
       "image": "images/wilds/rompopolo.webp",
-      "weakpoints": ["Tongue"],
+      "note": "",
+      "weakpoints": "Tongue",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 58,
+         "blunt": 55,
+         "shot": 51
       },
       "elements": {
-         "fire": 1,
-         "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "fire": 7,
+         "water": 17,
+         "thunder": 11,
+         "ice": 7,
+         "dragon": 4
       },
       "status": {
-         "poison": 2,
+         "poison": 1,
          "sleep": 2,
          "paralysis": 2,
          "blast": 2,
-         "stun": 1,
+         "stun": 2,
          "exhaust": 2
       },
       "misc": {
@@ -283,32 +291,33 @@
       "id": 8,
       "name": "Rey Dau",
       "image": "images/wilds/reydau.webp",
-      "weakpoints": ["Head"],
+      "note": "",
+      "weakpoints": "Head",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 57,
+         "blunt": 58,
+         "shot": 50
       },
       "elements": {
-         "fire": 1,
-         "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "fire": 5,
+         "water": 10,
+         "thunder": 0,
+         "ice": 15,
+         "dragon": 5
       },
       "status": {
          "poison": 2,
          "sleep": 2,
-         "paralysis": 2,
+         "paralysis": 1,
          "blast": 2,
          "stun": 1,
          "exhaust": 2
       },
       "misc": {
-         "severable": false,
+         "severable": true,
          "flash": true,
          "sonic": false,
-         "shock": true,
+         "shock": false,
          "pitfall": true,
          "dung": true,
          "meat": false
@@ -318,25 +327,26 @@
       "id": 9,
       "name": "Nerscylla",
       "image": "images/wilds/nerscylla.webp",
-      "weakpoints": ["Pincers"],
+      "note": "Thunder: only when hide broken.",
+      "weakpoints": "Pincers",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 42,
+         "blunt": 44,
+         "shot": 40
       },
       "elements": {
-         "fire": 1,
+         "fire": 13,
          "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "thunder": 13,
+         "ice": 7,
+         "dragon": 0
       },
       "status": {
          "poison": 2,
-         "sleep": 2,
-         "paralysis": 2,
+         "sleep": 1,
+         "paralysis": 3,
          "blast": 2,
-         "stun": 1,
+         "stun": 2,
          "exhaust": 2
       },
       "misc": {
@@ -346,32 +356,33 @@
          "shock": true,
          "pitfall": true,
          "dung": true,
-         "meat": false
+         "meat": true
       }
    },
    {
       "id": 10,
       "name": "Hirabami",
       "image": "images/wilds/hirabami.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 57,
+         "blunt": 58,
+         "shot": 51
       },
       "elements": {
-         "fire": 1,
-         "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "fire": 17,
+         "water": 6,
+         "thunder": 11,
+         "ice": 0,
+         "dragon": 4
       },
       "status": {
-         "poison": 2,
-         "sleep": 2,
+         "poison": 3,
+         "sleep": 3,
          "paralysis": 2,
          "blast": 2,
-         "stun": 1,
+         "stun": 2,
          "exhaust": 2
       },
       "misc": {
@@ -381,32 +392,33 @@
          "shock": true,
          "pitfall": true,
          "dung": true,
-         "meat": false
+         "meat": true
       }
    },
    {
       "id": 11,
       "name": "Ajarakan",
       "image": "images/wilds/ajarakan.webp",
-      "weakpoints": ["Arms"],
+      "note": "",
+      "weakpoints": "Arms",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 58,
+         "blunt": 57,
+         "shot": 55
       },
       "elements": {
-         "fire": 1,
-         "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "fire": 0,
+         "water": 22,
+         "thunder": 7,
+         "ice": 16,
+         "dragon": 11
       },
       "status": {
          "poison": 2,
          "sleep": 2,
          "paralysis": 2,
          "blast": 2,
-         "stun": 1,
+         "stun": 2,
          "exhaust": 2
       },
       "misc": {
@@ -416,14 +428,15 @@
          "shock": true,
          "pitfall": true,
          "dung": true,
-         "meat": false
+         "meat": true
       }
    },
    {
       "id": 12,
       "name": "Nu Udra",
       "image": "images/wilds/nuudra.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -456,9 +469,10 @@
    },
    {
       "id": 13,
-      "name": "Guardian Doshaguma",
+      "name": "Grd Doshaguma",
       "image": "images/wilds/gdoshaguma.webp",
-      "weakpoints": ["Frontlegs"],
+      "note": "",
+      "weakpoints": "Frontlegs",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -491,9 +505,10 @@
    },
    {
       "id": 14,
-      "name": "Guardian Rathalos",
+      "name": "Grd Rathalos",
       "image": "images/wilds/grathalos.webp",
-      "weakpoints": ["Mouth","Legs"],
+      "note": "",
+      "weakpoints": "Mouth, Legs",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -528,7 +543,8 @@
       "id": 15,
       "name": "Jin Dahaad",
       "image": "images/wilds/jindahaad.webp",
-      "weakpoints": ["Mouth","Chest"],
+      "note": "",
+      "weakpoints": "Mouth, Chest",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -561,9 +577,10 @@
    },
    {
       "id": 16,
-      "name": "Guardian Ebony Odoragon",
+      "name": "Grd Ebony Odoragon",
       "image": "images/wilds/gebonyodoragon.webp",
-      "weakpoints": ["Tail","Frontlegs"],
+      "note": "",
+      "weakpoints": "Tail, Frontlegs",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -598,7 +615,8 @@
       "id": 17,
       "name": "Xu Wu",
       "image": "images/wilds/xuwu.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -631,9 +649,10 @@
    },
    {
       "id": 18,
-      "name": "Guardian Arkveld",
+      "name": "Grd Arkveld",
       "image": "images/wilds/garkveld.webp",
-      "weakpoints": ["Chainblades"],
+      "note": "",
+      "weakpoints": "Chainblades",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -668,7 +687,8 @@
       "id": 19,
       "name": "Zoh Shia",
       "image": "images/wilds/zohshia.webp",
-      "weakpoints": ["Head", "Wingarms"],
+      "note": "",
+      "weakpoints": "Head, Wingarms",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -701,20 +721,21 @@
    },
    {
       "id": 20,
-      "name": "Guardian Fulgur Anjanath",
+      "name": "Grd Fulgur Anjanath",
       "image": "images/wilds/gfulguranjanath.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
-         "server": 11,
-         "blunt": 11,
-         "shot": 9
+         "server": 53,
+         "blunt": 50,
+         "shot": 47
       },
       "elements": {
-         "fire": 1,
-         "water": 0,
-         "thunder": 4,
-         "ice": 1,
-         "dragon": 1
+         "fire": 10,
+         "water": 23,
+         "thunder": 0,
+         "ice": 25,
+         "dragon": 16
       },
       "status": {
          "poison": 2,
@@ -738,7 +759,8 @@
       "id": 21,
       "name": "Yian Kut-Ku",
       "image": "images/wilds/yiankutku.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -773,7 +795,8 @@
       "id": 22,
       "name": "Gypceros",
       "image": "images/wilds/gypceros.webp",
-      "weakpoints": ["Head"],
+      "note": "",
+      "weakpoints": "Head",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -808,7 +831,8 @@
       "id": 23,
       "name": "Rathian",
       "image": "images/wilds/rathian.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -843,7 +867,8 @@
       "id": 24,
       "name": "Rathalos",
       "image": "images/wilds/rathalos.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -878,7 +903,8 @@
       "id": 25,
       "name": "Gravios",
       "image": "images/wilds/gravios.webp",
-      "weakpoints": ["Head","Belly","Back","Tail"],
+      "note": "",
+      "weakpoints": "Head, Belly, Back, Tail",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -913,7 +939,8 @@
       "id": 26,
       "name": "Blangonga",
       "image": "images/wilds/blangonga.webp",
-      "weakpoints": ["Booty"],
+      "note": "",
+      "weakpoints": "Booty",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -948,7 +975,8 @@
       "id": 27,
       "name": "Gore Magala",
       "image": "images/wilds/goremagala.webp",
-      "weakpoints": ["Mouth"],
+      "note": "",
+      "weakpoints": "Mouth",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -983,7 +1011,8 @@
       "id": 28,
       "name": "Arkveld",
       "image": "images/wilds/arkveld.webp",
-      "weakpoints": ["Chainblades"],
+      "note": "",
+      "weakpoints": "Chainblades",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -1018,7 +1047,8 @@
       "id": 29,
       "name": "Mitzutsune",
       "image": "images/wilds/mitzutsune.webp",
-      "weakpoints": ["Head","Claws","Back"],
+      "note": "",
+      "weakpoints": "Head, Claws, Back",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -1053,7 +1083,8 @@
       "id": 30,
       "name": "Seregios",
       "image": "images/wilds/seregios.webp",
-      "weakpoints": ["Legs"],
+      "note": "",
+      "weakpoints": "Legs",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -1088,7 +1119,8 @@
       "id": 31,
       "name": "Lagiacrus",
       "image": "images/wilds/lagiacrus.webp",
-      "weakpoints": ["Head","Back"],
+      "note": "",
+      "weakpoints": "Head, Back",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -1123,7 +1155,8 @@
       "id": 32,
       "name": "Omega Planetes",
       "image": "images/wilds/uthduna.webp",
-      "weakpoints": ["Head","Legs","Back (PU)"],
+      "note": "Power Unit on Back",
+      "weakpoints": "Head, Legs, Back",
       "weapon": {
          "server": 11,
          "blunt": 11,
@@ -1158,7 +1191,8 @@
       "id": 33,
       "name": "Gogmazios",
       "image": "images/wilds/gogmazios.webp",
-      "weakpoints": ["Horn","Wing Claws","Chest","Tail"],
+      "note": "",
+      "weakpoints": "Horn, Wing Claws, Chest, Tail",
       "weapon": {
          "server": 11,
          "blunt": 11,

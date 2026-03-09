@@ -1,15 +1,15 @@
 <template>
-  <div class="min-h-screen bg-gray-900 text-gray-100 p-4">
+  <div class="min-h-screen bg-gray-900 text-gray-400 p-4">
     <!-- Header -->
-    <header  @click="openGrid"  class="pb-4 flex items-center justify-center relative place-content-center max-w-3xl mx-auto">
-        <button class="text-white hover:text-yellow-300 flex items-center gap-1 absolute left-0">
+    <header  @click="openGrid"  class="pb-2 flex items-center justify-center relative max-w-3xl mx-auto">
+        <button class="hover:text-yellow-300 text-2xl flex items-center gap-1 absolute left-0">
         <i class="fa-solid fa-angles-left"></i>
       </button>
-      <h1 class="text-2xl font-bold text-white hover:text-yellow-300">Monster Hunter Wilds</h1>
+      <h1 class="text-2xl fira-sans hover:text-yellow-300">Monster Hunter Wilds</h1>
     </header>
 
     <!-- Selected Monster Display -->
-    <div v-if="monster" class="max-w-2xl mx-auto">
+    <div v-if="monster" class="max-w-lg mx-auto mb-4 md:max-w-3xl">
       <MonsterCard :monster="monster" />
     </div>
 

@@ -1,8 +1,10 @@
 @import "tailwindcss";
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Roboto, system-ui, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 400;  
+  font-style: normal;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -12,4 +14,22 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.fira-code {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.fira-sans {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-sans-cd {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
