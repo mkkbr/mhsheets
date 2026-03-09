@@ -1,18 +1,18 @@
 <template>
-  <div class="min-h-screen bg-gray-900 text-gray-400 p-4">
+  <div class="min-h-screen p-4 bg-ctp-crust text-ctp-teal">
     <!-- Header -->
     <header class="pb-4 flex items-center justify-center relative max-w-3xl mx-auto">
-      <h1 @click="$router.push('/')" class="text-2xl fira-sans">
+      <h1 @click="$router.push('/')" class="text-2xl">
         Monster Hunter Wilds
       </h1>
     </header>
 
-    <!-- Monster Grid -->
+    <!-- Monster Grid  -->
     <div v-if="!$route.params.monsterName" class="max-w-lg mx-auto mb-4 lg:max-w-3xl">
       <div class="grid grid-cols-2 gap-2 lg:grid-cols-4">
         <div v-for="monster in monsters" :key="monster.id" @click="$router.push(`/${monster.defname}`)"
-          class="flex flex-col items-center gap-2 p-2 rounded-md text-yellow-400 border border-gray-700 hover:bg-gray-800 cursor-pointer">
-          <span class="text-lg fira-sans-cd">{{ monster.name }}</span>
+          class="flex flex-col items-center gap-2 p-2 text-ctp-peach bg-ctp-mantle hover:bg-ctp-base cursor-pointer">
+          <span class="text-lg ">{{ monster.name }}</span>
           <img :src="monster.image" :alt="monster.name" class="object-contain object-center w-60"
             @error="$event.target.src = '/images/icons/starx.png'" />
         </div>

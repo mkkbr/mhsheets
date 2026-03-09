@@ -1,20 +1,20 @@
 <template>
-  <h2 class="text-3xl fira-sans-cd text-center font-bold pb-2 md:pt-4 md:pb-6 text-yellow-400">{{ monster.name }}</h2>
+  <h2 class="text-3xl text-center font-bold pb-2 md:pt-4 md:pb-6 text-ctp-peach">{{ monster.name }}</h2>
   <div className="flex flex-col justify-evenly md:flex-row">
-    <div className="flex justify-center">
-      <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center">
+      <div className="flex justify-center">
         <img :src="monster.image" :alt="monster.name" class="object-contain object-center w-56 md:w-86"
           @error="$event.target.src = './images/icons/starx.png'" />
-        <span className="fira-code text-yellow-600 mx-auto flex items-center gap-2">
-          <img src="/images/icons/effective.png" alt="Crosses" title="Crosses" class="w-5"/>{{ monster.weakpoints }}</span>
         </div>
+        <span className="text-ctp-green mx-auto flex items-center gap-2">
+          <i class="fa-solid fa-angles-up"></i>{{ monster.weakpoints }}</span>
     </div>
     <div className="flex flex-col p-2">
       <!-- Weapons -->
       <div class="flex justify-center gap-2">
         <div v-for="(value, weapon) in monster.weapon" :key="weapon" class="flex justify-center items-center ">
           <img :src="`./images/icons/${weapon}.png`" :alt="weapon" class="w-10 p-1" />
-          <div class="flex"><span v-for="star in stars(value, 'elements')" :key="star" class="text-yellow-400">★</span>
+          <div class="flex"><span v-for="star in stars(value, 'elements')" :key="star" class="text-ctp-yellow"><i class="fa-solid fa-star"></i></span>
           </div>
         </div>
       </div>
@@ -22,13 +22,11 @@
         <!-- Elemental Weaknesses  -->
         <div class="flex flex-col min-w-32">
           <div v-for="(value, element) in monster.elements" :key="element" class="flex items-center">
-            <img v-if="best(value, monster.elements) != 0" :src="`./images/icons/${element}.png`" :alt="element" class="w-10 mr-2 p-1 drop-shadow-[0_0px_6px_rgba(253,199,0,1)]" />
+            <img v-if="best(value, monster.elements) != 0" :src="`./images/icons/${element}.png`" :alt="element" class="w-10 mr-2 p-1 drop-shadow-[0_0px_6px_rgba(249,226,175,1)]" />
             <img v-else :src="`./images/icons/${element}.png`" :alt="element" class="w-10 mr-2 p-1" />
             <div class="flex">
-              <span v-if="stars(value, 'elements') == 0">
-                <img src="/images/icons/starx.png" alt="Crosses" title="Crosses" class="w-6 h-6"/>
-              </span>
-              <span v-for="star in stars(value, 'elements')" :key="star" class="text-lg text-yellow-400">★</span>
+              <span v-if="stars(value, 'elements') == 0" class="text-lg text-ctp-red"><i class="fa-solid fa-xmark"></i></span>
+              <span v-for="star in stars(value, 'elements')" :key="star" class="text-lg text-ctp-yellow"><i class="fa-solid fa-star"></i></span>
             </div>
           </div>
         </div>
@@ -37,10 +35,8 @@
           <div v-for="(value, status) in monster.status" :key="status" class="flex items-center">
             <img :src="`./images/icons/${status}.png`" :alt="status" class="w-10 mr-2 p-1" />
             <div class="flex">
-              <span v-if="stars(value, 'status') == 0">
-                <img src="/images/icons/starx.png" alt="Crosses" title="Crosses" class="w-6 h-6"/>
-              </span>
-              <span v-for="star in stars(value, 'status')" :key="star" class="text-lg text-yellow-400">★</span>
+              <span v-if="stars(value, 'status') == 0" class="text-lg text-ctp-red"><i class="fa-solid fa-xmark"></i></span>
+              <span v-for="star in stars(value, 'status')" :key="star" class="text-lg text-ctp-yellow-700"><i class="fa-solid fa-star"></i></span>
             </div>
           </div>
         </div>
@@ -64,7 +60,7 @@
       </div>
     </div>
   </div>
-  <div class="text-purple-500 flex justify-center md:pt-8">
+  <div class="text-ctp-lavender flex justify-center md:pt-8">
     <span v-if="monster.note != 0">{{ monster.note }}</span>
   </div>
 </template>

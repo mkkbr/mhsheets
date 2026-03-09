@@ -1,11 +1,11 @@
 <template>
-  <div class="min-h-screen bg-gray-900 text-gray-400 p-4">
+  <div class="min-h-screen p-4 bg-ctp-crust text-ctp-teal">
     <!-- Header -->
     <header  @click="openGrid"  class="pb-2 flex items-center justify-center relative max-w-3xl mx-auto">
-        <button class="hover:text-yellow-300 text-2xl flex items-center gap-1 absolute left-0">
+        <button class="hover:text-ctp-yellow text-2xl flex items-center gap-1 absolute left-0">
         <i class="fa-solid fa-angles-left"></i>
       </button>
-      <h1 class="text-2xl fira-sans hover:text-yellow-300">Monster Hunter Wilds</h1>
+      <h1 class="text-2xl hover:text-ctp-yellow">Monster Hunter Wilds</h1>
     </header>
 
     <!-- Selected Monster Display -->
