@@ -3,7 +3,7 @@
   <div className="flex flex-col justify-evenly md:flex-row">
     <div className="flex justify-center">
       <img :src="monster.image" :alt="monster.name" class="object-contain object-center w-60 md:w-86"
-        @error="$event.target.src = '/images/icons/starx.png'" />
+        @error="$event.target.src = './images/icons/starx.png'" />
     </div>
     <div className="flex flex-col p-2">
       <!-- Weapons -->
