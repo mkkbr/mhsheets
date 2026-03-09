@@ -74,7 +74,7 @@ const props = defineProps({
 const best = (value, elements) => {
 
   // under 18 is not effective...
-  if(value < 15) return false;
+  if(value < 14) return false;
 
   var maxVal = 0;
   var tolerance = 4;
@@ -98,16 +98,20 @@ const stars = (value, type) => {
   var returnval;
   if (type === 'status') {
     // Status: value = number of stars (1-3)
+    /* 
+      4 stars: 11 - 55
+      3 Stars:  8 - 40
+      2 Stars:  4 - 20
+    */
     returnval = value;
   } else {
-    // Elements/Weapons: 0=0, 1-20=1, 20-39=2, 40-59=3, 60+=4
     if (value === 0) {
       returnval = 0;
-    } else if (value <= 20) {
+    } else if (value <= 19) {
       returnval = 1;
     } else if (value <= 39) {
       returnval = 2;
-    } else if (value <= 59) {
+    } else if (value <= 54) {
       returnval = 3;
     } else {
       returnval = 4;

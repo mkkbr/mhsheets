@@ -488,16 +488,16 @@
     "note": "",
     "weakpoints": "Frontlegs",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 62,
+      "blunt": 62,
+      "shot": 59
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 22,
+      "water": 5,
+      "thunder": 13,
+      "ice": 13,
+      "dragon": 22
     },
     "status": {
       "poison": 2,
@@ -525,32 +525,32 @@
     "note": "",
     "weakpoints": "Mouth, Legs",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 55,
+      "blunt": 50,
+      "shot": 46
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0,
+      "water": 12,
+      "thunder": 17,
+      "ice": 12,
+      "dragon": 27
     },
     "status": {
-      "poison": 2,
+      "poison": 1,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
-      "exhaust": 2
+      "stun": 2,
+      "exhaust": 0
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
-      "dung": true,
+      "dung": false,
       "meat": false
     }
   },
@@ -562,32 +562,32 @@
     "note": "",
     "weakpoints": "Mouth, Chest",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 58,
+      "blunt": 58,
+      "shot": 40
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 13,
+      "water": 5,
+      "thunder": 5,
+      "ice": 0,
+      "dragon": 5
     },
     "status": {
-      "poison": 2,
-      "sleep": 2,
-      "paralysis": 2,
+      "poison": 1,
+      "sleep": 1,
+      "paralysis": 1,
       "blast": 2,
       "stun": 1,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
-      "pitfall": true,
-      "dung": true,
+      "pitfall": false,
+      "dung": false,
       "meat": false
     }
   },
@@ -599,32 +599,32 @@
     "note": "",
     "weakpoints": "Tail, Frontlegs",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 53,
+      "blunt": 53,
+      "shot": 50
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 15,
+      "water": 27,
+      "thunder": 15,
+      "ice": 15,
+      "dragon": 23
     },
     "status": {
       "poison": 2,
       "sleep": 2,
-      "paralysis": 2,
+      "paralysis": 3,
       "blast": 2,
-      "stun": 1,
-      "exhaust": 2
+      "stun": 2,
+      "exhaust": 0
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
-      "dung": true,
+      "dung": false,
       "meat": false
     }
   },
@@ -636,33 +636,33 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 56,
+      "blunt": 57,
+      "shot": 44
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 6,
+      "water": 4,
+      "thunder": 6,
+      "ice": 29,
+      "dragon": 0
     },
     "status": {
-      "poison": 2,
-      "sleep": 2,
+      "poison": 3,
+      "sleep": 1,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
-      "flash": true,
+      "severable": true,
+      "flash": false,
       "sonic": false,
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
     }
   },
   {
@@ -673,32 +673,32 @@
     "note": "",
     "weakpoints": "Chainblades",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 50,
+      "blunt": 51,
+      "shot": 49
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 9,
+      "water": 9,
+      "thunder": 10,
+      "ice": 9,
+      "dragon": 13
     },
     "status": {
       "poison": 2,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
-      "exhaust": 2
+      "stun": 2,
+      "exhaust": 0
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
-      "dung": true,
+      "dung": false,
       "meat": false
     }
   },
@@ -707,19 +707,19 @@
     "name": "Zoh Shia",
     "defname": "zohshia",
     "image": "images/wilds/zohshia.webp",
-    "note": "",
+    "note": "Dragon vs Black Parts",
     "weakpoints": "Head, Wingarms",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 71,
+      "blunt": 72,
+      "shot": 58
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 12,
+      "water": 5,
+      "thunder": 5,
+      "ice": 8,
+      "dragon": 20
     },
     "status": {
       "poison": 2,
@@ -759,20 +759,20 @@
       "dragon": 16
     },
     "status": {
-      "poison": 2,
+      "poison": 1,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
-      "exhaust": 2
+      "stun": 2,
+      "exhaust": 0
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
-      "dung": true,
+      "dung": false,
       "meat": false
     }
   },
@@ -784,29 +784,29 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 66,
+      "blunt": 59,
+      "shot": 66
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 6,
+      "water": 13,
+      "thunder": 18,
+      "ice": 20,
+      "dragon": 0
     },
     "status": {
       "poison": 2,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
       "severable": false,
       "flash": true,
-      "sonic": false,
+      "sonic": true,
       "shock": true,
       "pitfall": true,
       "dung": true,
@@ -821,30 +821,30 @@
     "note": "",
     "weakpoints": "Head",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 52,
+      "blunt": 46,
+      "shot": 47
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 18,
+      "water": 9,
+      "thunder": 0,
+      "ice": 14,
+      "dragon": 10
     },
     "status": {
-      "poison": 2,
+      "poison": 1,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
       "severable": false,
-      "flash": true,
+      "flash": false,
       "sonic": false,
-      "shock": true,
+      "shock": false,
       "pitfall": true,
       "dung": true,
       "meat": false
@@ -858,33 +858,33 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 53,
+      "blunt": 53,
+      "shot": 47
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0,
+      "water": 9,
+      "thunder": 14,
+      "ice": 9,
+      "dragon": 22
     },
     "status": {
-      "poison": 2,
+      "poison": 1,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
     }
   },
   {
@@ -895,33 +895,33 @@
     "note": "",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 54,
+      "blunt": 53,
+      "shot": 45
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0,
+      "water": 11,
+      "thunder": 16,
+      "ice": 11,
+      "dragon": 26
     },
     "status": {
       "poison": 2,
       "sleep": 2,
-      "paralysis": 2,
-      "blast": 2,
-      "stun": 1,
+      "paralysis": 1,
+      "blast": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
     }
   },
   {
@@ -932,27 +932,27 @@
     "note": "",
     "weakpoints": "Head, Belly, Back, Tail",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 43,
+      "blunt": 45,
+      "shot": 41
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0,
+      "water": 30,
+      "thunder": 8,
+      "ice": 10,
+      "dragon": 24
     },
     "status": {
       "poison": 2,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
@@ -969,23 +969,23 @@
     "note": "",
     "weakpoints": "Booty",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 57,
+      "blunt": 56,
+      "shot": 48
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 24,
+      "water": 5,
+      "thunder": 15,
+      "ice": 0,
+      "dragon": 0
     },
     "status": {
       "poison": 2,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
@@ -995,34 +995,34 @@
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
     }
   },
   {
     "id": 27,
-    "name": "Gore Magala",
-    "defname": "goremagala",
-    "image": "images/wilds/goremagala.webp",
+    "name": "Mitzutsune",
+    "defname": "mitzutsune",
+    "image": "images/wilds/mitzutsune.webp",
     "note": "",
-    "weakpoints": "Mouth",
+    "weakpoints": "Head, Claws, Back",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 43,
+      "blunt": 43,
+      "shot": 31
     },
     "elements": {
-      "fire": 1,
+      "fire": 8,
       "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "thunder": 21,
+      "ice": 12,
+      "dragon": 20
     },
     "status": {
       "poison": 2,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
@@ -1043,107 +1043,107 @@
     "note": "",
     "weakpoints": "Chainblades",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 50,
+      "blunt": 51,
+      "shot": 49
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 9,
+      "water": 9,
+      "thunder": 10,
+      "ice": 9,
+      "dragon": 13
     },
     "status": {
       "poison": 2,
       "sleep": 2,
       "paralysis": 2,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
     }
   },
   {
     "id": 29,
-    "name": "Mitzutsune",
-    "defname": "mitzutsune",
-    "image": "images/wilds/mitzutsune.webp",
-    "note": "",
-    "weakpoints": "Head, Claws, Back",
-    "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
-    },
-    "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
-    },
-    "status": {
-      "poison": 2,
-      "sleep": 2,
-      "paralysis": 2,
-      "blast": 2,
-      "stun": 1,
-      "exhaust": 2
-    },
-    "misc": {
-      "severable": false,
-      "flash": true,
-      "sonic": false,
-      "shock": true,
-      "pitfall": true,
-      "dung": true,
-      "meat": false
-    }
-  },
-  {
-    "id": 30,
     "name": "Seregios",
     "defname": "seregios",
     "image": "images/wilds/seregios.webp",
     "note": "",
     "weakpoints": "Legs",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 50,
+      "blunt": 50,
+      "shot": 43
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0,
+      "water": 9,
+      "thunder": 21,
+      "ice": 14,
+      "dragon": 7
     },
     "status": {
       "poison": 2,
       "sleep": 2,
-      "paralysis": 2,
+      "paralysis": 1,
       "blast": 2,
-      "stun": 1,
+      "stun": 2,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
+    }
+  },
+  {
+    "id": 30,
+    "name": "Gore Magala",
+    "defname": "goremagala",
+    "image": "images/wilds/goremagala.webp",
+    "note": "",
+    "weakpoints": "Mouth",
+    "weapon": {
+      "server": 56,
+      "blunt": 55,
+      "shot": 40
+    },
+    "elements": {
+      "fire": 17,
+      "water": 0,
+      "thunder": 12,
+      "ice": 5,
+      "dragon": 10
+    },
+    "status": {
+      "poison": 1,
+      "sleep": 1,
+      "paralysis": 1,
+      "blast": 2,
+      "stun": 1,
+      "exhaust": 2
+    },
+    "misc": {
+      "severable": true,
+      "flash": false,
+      "sonic": false,
+      "shock": true,
+      "pitfall": true,
+      "dung": false,
+      "meat": true
     }
   },
   {
@@ -1154,33 +1154,33 @@
     "note": "",
     "weakpoints": "Head, Back",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 50,
+      "blunt": 51,
+      "shot": 45
     },
     "elements": {
-      "fire": 1,
+      "fire": 19,
       "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "thunder": 0,
+      "ice": 12,
+      "dragon": 12
     },
     "status": {
       "poison": 2,
       "sleep": 2,
-      "paralysis": 2,
+      "paralysis": 1,
       "blast": 2,
       "stun": 1,
       "exhaust": 2
     },
     "misc": {
-      "severable": false,
+      "severable": true,
       "flash": true,
       "sonic": false,
       "shock": true,
       "pitfall": true,
       "dung": true,
-      "meat": false
+      "meat": true
     }
   },
   {
@@ -1191,32 +1191,32 @@
     "note": "Power Unit on Back",
     "weakpoints": "Head, Legs, Back",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 49,
+      "blunt": 53,
+      "shot": 42
     },
     "elements": {
-      "fire": 1,
-      "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0,
+      "water": 6,
+      "thunder": 17,
+      "ice": 5,
+      "dragon": 14
     },
     "status": {
-      "poison": 2,
-      "sleep": 2,
-      "paralysis": 2,
+      "poison": 0,
+      "sleep": 0,
+      "paralysis": 1,
       "blast": 2,
       "stun": 1,
-      "exhaust": 2
+      "exhaust": 0
     },
     "misc": {
       "severable": false,
-      "flash": true,
+      "flash": false,
       "sonic": false,
-      "shock": true,
-      "pitfall": true,
-      "dung": true,
+      "shock": false,
+      "pitfall": false,
+      "dung": false,
       "meat": false
     }
   },
@@ -1225,35 +1225,35 @@
     "name": "Gogmazios",
     "defname": "gogmazios",
     "image": "images/wilds/gogmazios.webp",
-    "note": "",
+    "note": "Fire In Solid state. Dragon In Liquid or Gaseous states",
     "weakpoints": "Horn, Wing Claws, Chest, Tail",
     "weapon": {
-      "server": 11,
-      "blunt": 11,
-      "shot": 9
+      "server": 53,
+      "blunt": 53,
+      "shot": 42
     },
     "elements": {
-      "fire": 1,
+      "fire": 15,
       "water": 0,
-      "thunder": 4,
-      "ice": 1,
-      "dragon": 1
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 32
     },
     "status": {
-      "poison": 2,
-      "sleep": 2,
-      "paralysis": 2,
+      "poison": 0,
+      "sleep": 0,
+      "paralysis": 0,
       "blast": 2,
       "stun": 1,
-      "exhaust": 2
+      "exhaust": 0
     },
     "misc": {
       "severable": false,
-      "flash": true,
+      "flash": false,
       "sonic": false,
-      "shock": true,
-      "pitfall": true,
-      "dung": true,
+      "shock": false,
+      "pitfall": false,
+      "dung": false,
       "meat": false
     }
   }
