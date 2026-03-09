@@ -35,9 +35,7 @@ const loadMonsters = async () => {
 // Find monster by name from route
 const loadMonster = () => {
   const monsterName = route.params.monsterName;
-  monster.value = monsters.value.find(m =>
-    m.name.toLowerCase() === monsterName.toLowerCase()
-  );
+  monster.value = monsters.value.find(m => m.defname === monsterName);
 };
 
 // Navigate to grid
