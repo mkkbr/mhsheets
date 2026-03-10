@@ -12,7 +12,7 @@
     <div v-if="monster" class="max-w-lg mx-auto mb-4 md:max-w-3xl">
       <MonsterCard :monster="monster" />
     </div>
-    <!-- Button to home if no Monster displayed -->
+    <!-- Button to home if no Monster displayed  -->
     <div v-else class="p-20 flex items-center justify-center">
       <div class="relative inline-flex  group ">
         <div
