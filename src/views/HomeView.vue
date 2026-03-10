@@ -24,10 +24,8 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
-import MonsterCard from '../components/MonsterCard.vue';
 
 const route = useRoute();
-const router = useRouter();
 const monsters = ref([]);
 const selectedMonster = ref(null);
 
