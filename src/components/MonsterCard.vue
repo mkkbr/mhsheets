@@ -47,9 +47,9 @@
           </div>
         </div>
       </div>
-      <div class="gap-4 flex justify-center p-2 text-sm items-center">
+      <div class="sm:gap-4 gap-2 flex justify-center p-2 text-sm items-center text-pretty">
         <span v-if="monster.kinsect.red != '0'" class="text-ctp-red flex items-center">
-          <img src="/images/icons/kinsect.png" alt="kinsect" title="kinsect" class="w-7 mr-4" />{{
+          <img src="/images/icons/kinsect.png" alt="kinsect" title="kinsect" class="w-7 sm:mr-4 mr-1" />{{
             monster.kinsect.red}}</span>
         <span v-if="monster.kinsect.orange != '0'" class="text-ctp-peach">{{ monster.kinsect.orange }}</span>
         <span v-if="monster.kinsect.white != '0'" class="text-ctp-text">{{ monster.kinsect.white }}</span>
@@ -72,7 +72,7 @@
       </div>
     </div>
   </div>
-  <div class="text-ctp-lavender flex justify-center md:pt-8">
+  <div class="text-ctp-lavender text-sm flex justify-center md:pt-8">
     <span v-if="monster.note != 0">{{ monster.note }}</span>
   </div>
 </template>

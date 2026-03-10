@@ -114,9 +114,9 @@
     },
     "kinsect": {
       "red": "Claws",
-      "orange": "Head/Torso",
+      "orange": "Head Torso",
       "white": "Legs",
-      "green": "Tail/Petals"
+      "green": "Tail Petals"
     },
     "misc": {
       "severable": false,
@@ -158,7 +158,7 @@
     "kinsect": {
       "red": "Head",
       "orange": "Torso",
-      "white": "Legs/Tail",
+      "white": "Legs Tail",
       "green": "0"
     },
     "misc": {
@@ -199,7 +199,7 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/Neck",
+      "red": "Head Neck",
       "orange": "Tail",
       "white": "Legs",
       "green": "Torso"
@@ -243,8 +243,8 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Torso/F-Legs",
-      "white": "H-Legs",
+      "orange": "Torso Foreleg",
+      "white": "Hindleg",
       "green": "Tail"
     },
     "misc": {
@@ -329,8 +329,8 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Torso/Back/F-Legs",
-      "white": "B-Legs",
+      "orange": "Torso Back Foreleg",
+      "white": "Backleg",
       "green": "Tail"
     },
     "misc": {
@@ -373,7 +373,7 @@
     "kinsect": {
       "red": "Head",
       "orange": "Torso",
-      "white": "Wings/Legs",
+      "white": "Wings Legs",
       "green": "Tail"
     },
     "misc": {
@@ -414,8 +414,8 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/Claws",
-      "orange": "Toso/Belly/Mantle",
+      "red": "Head Claws",
+      "orange": "Toso Belly Mantle",
       "white": "Legs",
       "green": "Stinger"
     },
@@ -457,10 +457,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/Neck",
+      "red": "Head Neck",
       "orange": "Torso",
-      "white": "H-Legs/Tail",
-      "green": "F-Legs"
+      "white": "Hindleg Tail",
+      "green": "Foreleg"
     },
     "misc": {
       "severable": false,
@@ -500,9 +500,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/F-Legs",
-      "orange": "Back/Belly",
-      "white": "H-Legs",
+      "red": "Head Foreleg",
+      "orange": "Back Belly",
+      "white": "Hindleg",
       "green": "Tail"
     },
     "misc": {
@@ -544,7 +544,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Tentacle/Body",
+      "orange": "Tentacle Body",
       "white": "Arms",
       "green": "0"
     },
@@ -629,8 +629,8 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "Head/Neck",
-      "orange": "Torso/Legs",
+      "red": "Head Neck",
+      "orange": "Torso Legs",
       "white": "Wings",
       "green": "Tail"
     },
@@ -673,8 +673,8 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Neck/Torso",
-      "white": "Legs/Iceplate",
+      "orange": "Neck Torso",
+      "white": "Legs Iceplate",
       "green": "Tail"
     },
     "misc": {
@@ -715,9 +715,9 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "Head/F-Legs",
-      "orange": "Body/Tail",
-      "white": "H-Legs",
+      "red": "Head Foreleg",
+      "orange": "Body Tail",
+      "white": "Hindleg",
       "green": "Tail-Tip"
     },
     "misc": {
@@ -759,7 +759,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Tentacle/Body/Arms",
+      "orange": "Tentacle Body Arms",
       "white": "F-Arms",
       "green": "0"
     },
@@ -802,7 +802,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Body/Wings/Chains",
+      "orange": "Body Wings Chains",
       "white": "Tail",
       "green": "0"
     },
@@ -887,8 +887,8 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "Head/Neck",
-      "orange": "Torso/Wings",
+      "red": "Head Neck",
+      "orange": "Torso Wings",
       "white": "Legs",
       "green": "Tail"
     },
@@ -907,7 +907,7 @@
     "name": "Yian Kut-Ku",
     "defname": "yiankutku",
     "image": "images/wilds/yiankutku.webp",
-    "note": "!",
+    "note": "TODO",
     "weakpoints": "Mouth",
     "weapon": {
       "server": 3.25,
@@ -930,8 +930,8 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/Neck",
-      "orange": "Torso/Legs",
+      "red": "Head Neck",
+      "orange": "Torso Legs",
       "white": "Wings",
       "green": "Tail"
     },
@@ -950,7 +950,7 @@
     "name": "Gypceros",
     "defname": "gypceros",
     "image": "images/wilds/gypceros.webp",
-    "note": "!",
+    "note": "TODO",
     "weakpoints": "Head",
     "weapon": {
       "server": 2.88,
@@ -975,7 +975,7 @@
     "kinsect": {
       "red": "Head",
       "orange": "Torso",
-      "white": "Wings/Legs",
+      "white": "Wings Legs",
       "green": "Neck"
     },
     "misc": {
@@ -1017,7 +1017,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Torso/Legs",
+      "orange": "Torso Legs",
       "white": "Wings",
       "green": "Tail"
     },
@@ -1060,7 +1060,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Neck/Torso/Wings",
+      "orange": "Neck Torso Wings",
       "white": "Legs",
       "green": "Tail"
     },
@@ -1079,7 +1079,7 @@
     "name": "Gravios",
     "defname": "gravios",
     "image": "images/wilds/gravios.webp",
-    "note": "!",
+    "note": "TODO",
     "weakpoints": "Head, Belly, Back, Tail",
     "weapon": {
       "server": 2,
@@ -1103,7 +1103,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Neck/Body/wings",
+      "orange": "Neck Body wings",
       "white": "Legs",
       "green": "Tail"
     },
@@ -1145,9 +1145,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/F-Legs",
+      "red": "Head Foreleg",
       "orange": "Torso",
-      "white": "H-Legs",
+      "white": "Hindleg",
       "green": "Tail"
     },
     "misc": {
@@ -1188,9 +1188,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/Fin",
-      "orange": "Body/F-Legs/Claws",
-      "white": "H-Legs/Tail",
+      "red": "Head Fin",
+      "orange": "Body Foreleg Claws",
+      "white": "Hindleg Tail",
       "green": "0"
     },
     "misc": {
@@ -1232,7 +1232,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Body/Wings/Chains",
+      "orange": "Body Wings Chains",
       "white": "Tail",
       "green": "0"
     },
@@ -1317,9 +1317,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "Head/Wingarms",
-      "orange": "Torso/F-Legs/Tail",
-      "white": "H-Legs",
+      "red": "Head Wingarm",
+      "orange": "Torso Foreleg Tail",
+      "white": "Hindleg",
       "green": "Wings"
     },
     "misc": {
@@ -1361,7 +1361,7 @@
     },
     "kinsect": {
       "red": "Head",
-      "orange": "Neck/Body/Tail",
+      "orange": "Neck Body Tail",
       "white": "Legs",
       "green": "Back"
     },
@@ -1380,7 +1380,7 @@
     "name": "Omega Planetes",
     "defname": "omegaplanetes",
     "image": "images/wilds/omegaplanetes.webp",
-    "note": "! Power Unit on Back",
+    "note": "TODO Power Unit on Back",
     "weakpoints": "Head, Legs, Back",
     "weapon": {
       "server": 3.25,
@@ -1423,7 +1423,7 @@
     "name": "Gogmazios",
     "defname": "gogmazios",
     "image": "images/wilds/gogmazios.webp",
-    "note": "! Fire In Solid state. Dragon In Liquid or Gaseous states",
+    "note": "TODO Fire In Solid state. Dragon In Liquid or Gaseous states",
     "weakpoints": "Horn, Wing Claws, Chest, Tail",
     "weapon": {
       "server": 2.17,
