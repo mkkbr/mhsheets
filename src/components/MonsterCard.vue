@@ -41,8 +41,15 @@
           </div>
         </div>
       </div>
+      <div class="gap-4 flex justify-center p-2 text-sm">
+        <span v-if="monster.kinsect.red != '0'"  class="text-ctp-red flex">          
+        <img src="/images/icons/kinsect.png" alt="kinsect" title="kinsect" class="w-6 h-6 mr-4" />{{ monster.kinsect.red}}</span>
+        <span v-if="monster.kinsect.orange != '0'" class="text-ctp-peach">{{ monster.kinsect.orange }}</span>
+        <span v-if="monster.kinsect.white != '0'" class="text-ctp-text">{{ monster.kinsect.white }}</span>
+        <span v-if="monster.kinsect.green != '0'" class="text-ctp-green">{{ monster.kinsect.green }}</span>
+      </div>
       <!-- Misc Items (Bottom Row) -->
-      <div class="flex justify-center p-2">
+      <div class="flex justify-center p-1">
         <img v-if="monster.misc.severable" src="/images/icons/sword.png" alt="Severable" title="Severable Parts"
           class="w-8 h-8" />
         <img v-if="monster.misc.flash" src="/images/icons/flash_pod.png" alt="Flash Pod" title="Flash Pod"
