@@ -782,19 +782,19 @@
     "name": "Yian Kut-Ku",
     "defname": "yiankutku",
     "image": "images/wilds/yiankutku.webp",
-    "note": "",
+    "note": "!",
     "weakpoints": "Mouth",
     "weapon": {
-      "server": 1,
-      "blunt": 1,
-      "shot": 1
+      "server": 3.25,
+      "blunt": 3,
+      "shot": 3.25
     },
     "elements": {
       "fire": 1,
-      "water": 1,
-      "thunder": 1,
-      "ice": 1,
-      "dragon": 1
+      "water": 1.13,
+      "thunder": 1.5,
+      "ice": 1.63,
+      "dragon": 0.25
     },
     "status": {
       "poison": 2,
@@ -819,18 +819,18 @@
     "name": "Gypceros",
     "defname": "gypceros",
     "image": "images/wilds/gypceros.webp",
-    "note": "",
+    "note": "!",
     "weakpoints": "Head",
     "weapon": {
-      "server": 1,
-      "blunt": 1,
-      "shot": 1
+      "server": 2.88,
+      "blunt": 2.55,
+      "shot": 2.5
     },
     "elements": {
-      "fire": 1,
+      "fire": 1.75,
       "water": 1,
       "thunder": 0,
-      "ice": 1,
+      "ice": 1.38,
       "dragon": 1
     },
     "status": {
@@ -930,19 +930,19 @@
     "name": "Gravios",
     "defname": "gravios",
     "image": "images/wilds/gravios.webp",
-    "note": "",
+    "note": "!",
     "weakpoints": "Head, Belly, Back, Tail",
     "weapon": {
-      "server": 1,
-      "blunt": 1,
-      "shot": 1
+      "server": 2,
+      "blunt": 2,
+      "shot": 2
     },
     "elements": {
-      "fire": 1,
-      "water": 1,
+      "fire": 0.89,
+      "water": 1.89,
       "thunder": 1,
       "ice": 1,
-      "dragon": 1
+      "dragon": 1.44
     },
     "status": {
       "poison": 2,
@@ -1189,19 +1189,19 @@
     "name": "Omega Planetes",
     "defname": "omegaplanetes",
     "image": "images/wilds/omegaplanetes.webp",
-    "note": "Power Unit on Back",
+    "note": "! Power Unit on Back",
     "weakpoints": "Head, Legs, Back",
     "weapon": {
-      "server": 1,
-      "blunt": 1,
-      "shot": 1
+      "server": 3.25,
+      "blunt": 3.13,
+      "shot": 2.63
     },
     "elements": {
-      "fire": 1,
+      "fire": 0,
       "water": 1,
-      "thunder": 1,
-      "ice": 1,
-      "dragon": 1
+      "thunder": 2.63,
+      "ice": 0.88,
+      "dragon": 2.25
     },
     "status": {
       "poison": 0,
@@ -1226,19 +1226,19 @@
     "name": "Gogmazios",
     "defname": "gogmazios",
     "image": "images/wilds/gogmazios.webp",
-    "note": "Fire In Solid state. Dragon In Liquid or Gaseous states",
+    "note": "! Fire In Solid state. Dragon In Liquid or Gaseous states",
     "weakpoints": "Horn, Wing Claws, Chest, Tail",
     "weapon": {
-      "server": 1,
-      "blunt": 1,
-      "shot": 1
+      "server": 2.17,
+      "blunt": 2.17,
+      "shot": 1.25
     },
     "elements": {
-      "fire": 1,
-      "water": 1,
-      "thunder": 1,
-      "ice": 1,
-      "dragon": 1
+      "fire": 0.83,
+      "water": 0,
+      "thunder": 0,
+      "ice": 0,
+      "dragon": 0.58
     },
     "status": {
       "poison": 0,
