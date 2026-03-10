@@ -85,8 +85,8 @@ const props = defineProps({
 // Calculate stars based on your thresholds
 const best = (value, elements) => {
 
-  // under 18 is not effective...
-  if (value < 2) return false;
+  // 1.75 is not effective...
+  if (value < 1.76) return false;
 
   var maxVal = 0;
   var tolerance = 0.1;
