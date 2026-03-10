@@ -156,9 +156,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
+      "red": "Head",
+      "orange": "Torso",
+      "white": "Legs/Tail",
       "green": "0"
     },
     "misc": {
@@ -199,10 +199,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Neck",
+      "orange": "Tail",
+      "white": "Legs",
+      "green": "Torso"
     },
     "misc": {
       "severable": true,
@@ -242,10 +242,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Torso/F-Legs",
+      "white": "H-Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": false,
@@ -285,10 +285,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Torso",
+      "white": "Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": false,
@@ -328,10 +328,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Torso/Back/F-Legs",
+      "white": "B-Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": false,
@@ -371,10 +371,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Torso",
+      "white": "Wings/Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -414,10 +414,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Claws",
+      "orange": "Toso/Belly/Mantle",
+      "white": "Legs",
+      "green": "Stinger"
     },
     "misc": {
       "severable": false,
@@ -457,10 +457,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Neck",
+      "orange": "Torso",
+      "white": "H-Legs/Tail",
+      "green": "F-Legs"
     },
     "misc": {
       "severable": false,
@@ -500,10 +500,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/F-Legs",
+      "orange": "Back/Belly",
+      "white": "H-Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": false,
@@ -543,9 +543,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
+      "red": "Head",
+      "orange": "Tentacle/Body",
+      "white": "Arms",
       "green": "0"
     },
     "misc": {
@@ -629,10 +629,10 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Neck",
+      "orange": "Torso/Legs",
+      "white": "Wings",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -672,10 +672,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Neck/Torso",
+      "white": "Legs/Iceplate",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -715,10 +715,10 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/F-Legs",
+      "orange": "Body/Tail",
+      "white": "H-Legs",
+      "green": "Tail-Tip"
     },
     "misc": {
       "severable": true,
@@ -758,9 +758,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
+      "red": "Head",
+      "orange": "Tentacle/Body/Arms",
+      "white": "F-Arms",
       "green": "0"
     },
     "misc": {
@@ -801,9 +801,9 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
+      "red": "Head",
+      "orange": "Body/Wings/Chains",
+      "white": "Tail",
       "green": "0"
     },
     "misc": {
@@ -887,10 +887,10 @@
       "exhaust": 0
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Neck",
+      "orange": "Torso/Wings",
+      "white": "Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -930,10 +930,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Neck",
+      "orange": "Torso/Legs",
+      "white": "Wings",
+      "green": "Tail"
     },
     "misc": {
       "severable": false,
@@ -973,10 +973,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Torso",
+      "white": "Wings/Legs",
+      "green": "Neck"
     },
     "misc": {
       "severable": false,
@@ -1016,10 +1016,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Torso/Legs",
+      "white": "Wings",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -1059,10 +1059,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Neck/Torso/Wings",
+      "white": "Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -1102,10 +1102,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Neck/Body/wings",
+      "white": "Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": true,
@@ -1145,10 +1145,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/F-Legs",
+      "orange": "Torso",
+      "white": "H-Legs",
+      "green": "Tail"
     },
     "misc": {
       "severable": false,
@@ -1188,9 +1188,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
+      "red": "Head/Fin",
+      "orange": "Body/F-Legs/Claws",
+      "white": "H-Legs/Tail",
       "green": "0"
     },
     "misc": {
@@ -1231,9 +1231,9 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
+      "red": "Head",
+      "orange": "Body/Wings/Chains",
+      "white": "Tail",
       "green": "0"
     },
     "misc": {
@@ -1317,10 +1317,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head/Wingarms",
+      "orange": "Torso/F-Legs/Tail",
+      "white": "H-Legs",
+      "green": "Wings"
     },
     "misc": {
       "severable": true,
@@ -1360,10 +1360,10 @@
       "exhaust": 2
     },
     "kinsect": {
-      "red": "0",
-      "orange": "0",
-      "white": "0",
-      "green": "0"
+      "red": "Head",
+      "orange": "Neck/Body/Tail",
+      "white": "Legs",
+      "green": "Back"
     },
     "misc": {
       "severable": true,
