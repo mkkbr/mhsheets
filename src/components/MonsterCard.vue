@@ -21,7 +21,7 @@
       </div>
       <div className="flex justify-center p-2 gap-4">
         <!-- Elemental Weaknesses  -->
-        <div class="flex flex-col min-w-30">
+        <div class="flex flex-col min-w-24">
           <div v-for="(value, element) in monster.elements" :key="element" class="flex items-center">
             <img v-if="best(value, monster.elements) != 0" :src="`./images/icons/${element}.png`" :alt="element"
               class="w-9 mr-2 p-1 drop-shadow-[0_0px_6px_rgba(249,226,175,1)]" />
@@ -35,7 +35,7 @@
           </div>
         </div>
         <!-- Status Weaknesses -->
-        <div class="flex flex-col min-w-30">
+        <div class="flex flex-col">
           <div v-for="(value, status) in monster.status" :key="status" class="flex items-center">
             <img :src="`./images/icons/${status}.png`" :alt="status" class="w-9 mr-2 p-1" />
             <div class="flex">
