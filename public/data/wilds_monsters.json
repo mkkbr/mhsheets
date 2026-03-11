@@ -907,7 +907,7 @@
     "name": "Yian Kut-Ku",
     "defname": "yiankutku",
     "image": "images/wilds/yiankutku.webp",
-    "note": "TODO",
+    "note": "",
     "weakpoints": "Mouth",
     "weapon": {
       "server": 3.25,
@@ -916,10 +916,10 @@
     },
     "elements": {
       "fire": 1,
-      "water": 1.13,
-      "thunder": 1.5,
-      "ice": 1.63,
-      "dragon": 0.25
+      "water": 1.63,
+      "thunder": 2.38,
+      "ice": 2.5,
+      "dragon": 0.38
     },
     "status": {
       "poison": 2,
@@ -950,18 +950,18 @@
     "name": "Gypceros",
     "defname": "gypceros",
     "image": "images/wilds/gypceros.webp",
-    "note": "TODO",
+    "note": "",
     "weakpoints": "Head",
     "weapon": {
       "server": 2.88,
-      "blunt": 2.55,
+      "blunt": 2.25,
       "shot": 2.5
     },
     "elements": {
-      "fire": 1.75,
+      "fire": 2.63,
       "water": 1,
       "thunder": 0,
-      "ice": 1.38,
+      "ice": 1.75,
       "dragon": 1
     },
     "status": {
@@ -1079,7 +1079,7 @@
     "name": "Gravios",
     "defname": "gravios",
     "image": "images/wilds/gravios.webp",
-    "note": "TODO",
+    "note": "",
     "weakpoints": "Head, Belly, Back, Tail",
     "weapon": {
       "server": 2,
@@ -1087,11 +1087,11 @@
       "shot": 2
     },
     "elements": {
-      "fire": 0.89,
-      "water": 1.89,
+      "fire": 0,
+      "water": 3.38,
       "thunder": 1,
-      "ice": 1,
-      "dragon": 1.44
+      "ice": 1.25,
+      "dragon": 1.25
     },
     "status": {
       "poison": 2,
@@ -1380,7 +1380,7 @@
     "name": "Omega Planetes",
     "defname": "omegaplanetes",
     "image": "images/wilds/omegaplanetes.webp",
-    "note": "TODO Power Unit on Back",
+    "note": "Power Unit on Back",
     "weakpoints": "Head, Legs, Back",
     "weapon": {
       "server": 3.25,
